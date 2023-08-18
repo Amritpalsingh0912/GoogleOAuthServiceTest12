@@ -1,0 +1,530 @@
+﻿{
+  "exportFormatVersion": 2,
+  "exportTime": "2022-10-12 20:29:04",
+  "containerVersion": {
+    "path": "accounts/4701974616/containers/95082013/versions/2",
+    "accountId": "4701974616",
+    "containerId": "95082013",
+    "containerVersionId": "2",
+    "name": "Template",
+    "container": {
+      "path": "accounts/4701974616/containers/95082013",
+      "accountId": "4701974616",
+      "containerId": "95082013",
+      "name": "HLM GA4 Template",
+      "publicId": "GTM-PNWBTB5",
+      "usageContext": [
+        "WEB"
+      ],
+      "fingerprint": "1665606333744",
+      "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/4701974616/containers/95082013/workspaces?apiLink=container",
+      "features": {
+        "supportUserPermissions": true,
+        "supportEnvironments": true,
+        "supportWorkspaces": true,
+        "supportGtagConfigs": false,
+        "supportBuiltInVariables": true,
+        "supportClients": false,
+        "supportFolders": true,
+        "supportTags": true,
+        "supportTemplates": true,
+        "supportTriggers": true,
+        "supportVariables": true,
+        "supportVersions": true,
+        "supportZones": true
+      },
+      "tagIds": [
+        "GTM-PNWBTB5"
+      ]
+    },
+    "tag": [
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "tagId": "4",
+        "name": "HLM - GA4",
+        "type": "gaawc",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "sendPageView",
+            "value": "true"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "enableSendToServerContainer",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "measurementId",
+            "value": "G-123456789"
+          }
+        ],
+        "fingerprint": "1665606476917",
+        "firingTriggerId": [
+          "2147479553"
+        ],
+        "parentFolderId": "3",
+        "tagFiringOption": "ONCE_PER_LOAD",
+        "monitoringMetadata": {
+          "type": "MAP"
+        },
+        "consentSettings": {
+          "consentStatus": "NOT_SET"
+        }
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "tagId": "6",
+        "name": "GA4 - Form Fill Completion",
+        "type": "gaawe",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "sendEcommerceData",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "eventName",
+            "value": "Form Fill Completion"
+          },
+          {
+            "type": "TAG_REFERENCE",
+            "key": "measurementId",
+            "value": "HLM - GA4"
+          }
+        ],
+        "fingerprint": "1665606354278",
+        "firingTriggerId": [
+          "5"
+        ],
+        "parentFolderId": "3",
+        "tagFiringOption": "ONCE_PER_LOAD",
+        "monitoringMetadata": {
+          "type": "MAP"
+        },
+        "consentSettings": {
+          "consentStatus": "NOT_SET"
+        }
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "tagId": "9",
+        "name": "GA4 - Click To Call",
+        "type": "gaawe",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "sendEcommerceData",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "eventName",
+            "value": "Click To Call"
+          },
+          {
+            "type": "TAG_REFERENCE",
+            "key": "measurementId",
+            "value": "HLM - GA4"
+          }
+        ],
+        "fingerprint": "1665606354279",
+        "firingTriggerId": [
+          "8"
+        ],
+        "parentFolderId": "3",
+        "tagFiringOption": "ONCE_PER_LOAD",
+        "monitoringMetadata": {
+          "type": "MAP"
+        },
+        "consentSettings": {
+          "consentStatus": "NOT_SET"
+        }
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "tagId": "11",
+        "name": "Click To Call",
+        "type": "ua",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "nonInteraction",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "overrideGaSettings",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "eventCategory",
+            "value": "Mobile Click to Call"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackType",
+            "value": "TRACK_EVENT"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "gaSettings",
+            "value": "{{HLM - UA Destination}}"
+          }
+        ],
+        "fingerprint": "1665606354280",
+        "firingTriggerId": [
+          "8"
+        ],
+        "parentFolderId": "3",
+        "tagFiringOption": "ONCE_PER_LOAD",
+        "monitoringMetadata": {
+          "type": "MAP"
+        },
+        "consentSettings": {
+          "consentStatus": "NOT_SET"
+        }
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "tagId": "12",
+        "name": "Form Fill Completion",
+        "type": "ua",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "nonInteraction",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "overrideGaSettings",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "eventCategory",
+            "value": "Lead Form"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackType",
+            "value": "TRACK_EVENT"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "gaSettings",
+            "value": "{{HLM - UA Destination}}"
+          }
+        ],
+        "fingerprint": "1665606354280",
+        "firingTriggerId": [
+          "5"
+        ],
+        "parentFolderId": "3",
+        "tagFiringOption": "ONCE_PER_LOAD",
+        "monitoringMetadata": {
+          "type": "MAP"
+        },
+        "consentSettings": {
+          "consentStatus": "NOT_SET"
+        }
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "tagId": "14",
+        "name": "HLM - UA Tag",
+        "type": "ua",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "overrideGaSettings",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackType",
+            "value": "TRACK_PAGEVIEW"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "gaSettings",
+            "value": "{{HLM - UA Destination}}"
+          }
+        ],
+        "fingerprint": "1665606354280",
+        "firingTriggerId": [
+          "2147479553"
+        ],
+        "parentFolderId": "3",
+        "tagFiringOption": "ONCE_PER_LOAD",
+        "monitoringMetadata": {
+          "type": "MAP"
+        },
+        "consentSettings": {
+          "consentStatus": "NOT_SET"
+        }
+      }
+    ],
+    "trigger": [
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "triggerId": "5",
+        "name": "Thank You Pageview Trigger",
+        "type": "PAGEVIEW",
+        "filter": [
+          {
+            "type": "CONTAINS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{Page URL}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "thank-you"
+              }
+            ]
+          }
+        ],
+        "fingerprint": "1665606354278",
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "triggerId": "7",
+        "name": "GTM Debugger Click",
+        "type": "CLICK",
+        "fingerprint": "1665606354278",
+        "parentFolderId": "3"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "triggerId": "8",
+        "name": "Click To Call Tel Trigger",
+        "type": "LINK_CLICK",
+        "filter": [
+          {
+            "type": "CONTAINS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{Click URL}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "tel:"
+              }
+            ]
+          }
+        ],
+        "waitForTags": {
+          "type": "BOOLEAN",
+          "value": "false"
+        },
+        "checkValidation": {
+          "type": "BOOLEAN",
+          "value": "false"
+        },
+        "waitForTagsTimeout": {
+          "type": "TEMPLATE",
+          "value": "2000"
+        },
+        "uniqueTriggerId": {
+          "type": "TEMPLATE"
+        },
+        "fingerprint": "1665606382447",
+        "parentFolderId": "3"
+      }
+    ],
+    "variable": [
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "variableId": "10",
+        "name": "HLM - UA Destination",
+        "type": "gas",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "cookieDomain",
+            "value": "auto"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "doubleClick",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "setTrackerName",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "useDebugVersion",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "useHashAutoLink",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "decorateFormsAutoLink",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "enableLinkId",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "enableEcommerce",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackingId",
+            "value": "UA-123456789-01"
+          }
+        ],
+        "fingerprint": "1665606510796",
+        "parentFolderId": "3"
+      }
+    ],
+    "folder": [
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "folderId": "3",
+        "name": "HLM Foundation",
+        "fingerprint": "1665606354277"
+      }
+    ],
+    "builtInVariable": [
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "PAGE_URL",
+        "name": "Page URL"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "PAGE_HOSTNAME",
+        "name": "Page Hostname"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "PAGE_PATH",
+        "name": "Page Path"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "REFERRER",
+        "name": "Referrer"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "EVENT",
+        "name": "Event"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "CLICK_ELEMENT",
+        "name": "Click Element"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "CLICK_CLASSES",
+        "name": "Click Classes"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "CLICK_ID",
+        "name": "Click ID"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "CLICK_TARGET",
+        "name": "Click Target"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "CLICK_URL",
+        "name": "Click URL"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "CLICK_TEXT",
+        "name": "Click Text"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "FORM_ELEMENT",
+        "name": "Form Element"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "FORM_CLASSES",
+        "name": "Form Classes"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "FORM_ID",
+        "name": "Form ID"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "FORM_TARGET",
+        "name": "Form Target"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "FORM_URL",
+        "name": "Form URL"
+      },
+      {
+        "accountId": "4701974616",
+        "containerId": "95082013",
+        "type": "FORM_TEXT",
+        "name": "Form Text"
+      }
+    ],
+    "fingerprint": "1665606532772",
+    "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/4701974616/containers/95082013/versions/2?apiLink=version"
+  }
+}

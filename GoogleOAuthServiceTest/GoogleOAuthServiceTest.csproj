@@ -7,4 +7,25 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="googleauth.json" />
+    <None Remove="HLM-GTM-Container.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="googleauth.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="HLM-GTM-Container.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Analytics.v3" Version="1.48.0.1679" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.60.0" />
+    <PackageReference Include="Google.Apis.GoogleAnalyticsAdmin.v1alpha" Version="1.51.0.2309" />
+    <PackageReference Include="Google.Apis.TagManager.v2" Version="1.60.0.3016" />
+  </ItemGroup>
+
 </Project>

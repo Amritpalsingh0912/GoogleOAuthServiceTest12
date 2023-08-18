@@ -1,0 +1,13 @@
+﻿{
+  "type": "service_account",
+  "project_id": "rapidfire-389120",
+  "private_key_id": "a1d9d62eefb7654578bbf8a3c88e8ae0e29d9aa4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC++q+bJLCFycfN\nSMS9fefCm7mujLC9EORXJGKdmfL/sFp59gwVfbtu+FEiYQwm2NDVsBDrpxk0IuMo\nWIpeJvb6wiinfgxg2TsHWBH6bhPQFAqZikJIg4CEakUmX/DrxV3EBxHsh8mfRYCq\nYBYYVtg5V6NsxGym6uVNDeWPQse323TbyJHpg9I1hCjjfYnv+Udh5fvF6cOSPpke\nw7lALo67v7fOmp8sg0awkj+zOl9R0oC2eDAbC3Gj0iSBEzyXIsopgSRju+7qRfMM\n3Uw3AwqWtL+IsEE/OtmYK4y3P9sAcvX0aDA64SkDjDq7WtHugWhEMtnEWxP9gOVu\nShYxrGMRAgMBAAECggEAALy9As9QcyPFRrCaOdULmP+65saaRBCVoRR94PfgLUaE\nAuaFQ2v51kLVJVnUjy3VGI4WcqJxgXcFA3ncBuMFnxAy0fq1l4YfKTcY0qusHeiF\n5fPXr6n6TAiQ/cXvCyn247PXSN95UskU5xN54lwrd4U0F05m0PolKnf8Q+JRHQ+V\nHZf/9SMKW7Z5PN3XZFbIAoj17Wv+5TNnUNq8dRyz7llbAQAy+G2XFrVb/EaCAg56\nSs2x+oHqLYDhtey5+/A12C58lXJ4PW0lYoVoryuVE3uUMpzFfA5DTHmj7bX7anS4\nxbny7ex4ZWo90H7TBMgo113WjyzVpVhBExeyEIv/lQKBgQDlB1Z/RGgUZ2Dj/45i\nuU0qMNIYCD2IlQsrzr3+5sD5CI6CBUe6NSxTtHaNx3i09QCZJIAuOGmSHbSJ91du\n9/qc+bZMtC7tb+FlJehFEFo6CYjRE7+tN30rmi0VEGr9c6b6AvTLYfdSDyFEslyW\npoZoJcR5M5yAwhqe95ET2d4qHwKBgQDVeD/vF3NFpNJe2r9Vk5aDEb1p7lHaqe0W\nCCC7g8OMim2Qfj2sresrWL7p8VQZGIiyq0cnHnCcUXBb/626vE3VxTZWPCUZ3i0X\n2gL8ckdtUtU8LSEMncBbSO7hipcDjq5oxTYE2YVXk6Vqqj54ZCHVFqkj1y0MeTlU\nR2XgtNUszwKBgHUc03YwnKgSVNFBlKWW64ZvgH8Zd52n2RaFmVIG3RZ68aQ63vqw\nxgHnfdfx8B9YSP4GVCVOY218Ex2ZhPQRie1LI5UFbhmr5C28vJDUU87poTSITLNe\ndHsfU3457vu7b97YNCTr63PimLhwHDhM3t3Ssizn31dX6hTvsxfbiGcxAoGBANQt\nNb773AN5E/BcFJmGnK+iTlagHpPtGk4vvfkjupZScRyRndOo+nqXNwtoZ2KaVCTi\nwVJMmzmEaN3IgHF/AQ5deuiz11yizMdMVnN9UymCj5fEc3kKw0r4bxeWnQtYIlrY\nyhx/6F1nz575oCYhwM8AOxX4pjojs6vlW4nBs7FZAoGAEht33w7BH493bpJDOpSe\nwiE0krdsOk/q6O5+NmpMuAQbWD3xeTPaLi3kbQB+a489v1p1Ki9fiUrC2bUKkJpF\nqDyZJ0G/hq0QzkIUdMehu0WqTcSE3vsu+EBEc9UDH2o5dh9inwHS9pWxDYZaAdVb\nKUdb+gF+oT9EG/GsOiuXa/s=\n-----END PRIVATE KEY-----\n",
+  "client_email": "rapid-fire-gtm-ga4-integration@rapidfire-389120.iam.gserviceaccount.com",
+  "client_id": "108769828012880139136",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rapid-fire-gtm-ga4-integration%40rapidfire-389120.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
